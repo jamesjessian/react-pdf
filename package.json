@@ -1,5 +1,5 @@
 {
-  "name": "react-pdf",
+  "name": "@jamesjessian/react-pdf",
   "version": "5.7.0",
   "description": "Display PDFs in your React app as easily as if they were images.",
   "main": "dist/umd/entry.js",
@@ -23,51 +23,18 @@
     "pdf-viewer",
     "react"
   ],
-  "author": {
-    "name": "Wojciech Maj",
-    "email": "kontakt@wojtekmaj.pl"
-  },
+  "author": "Wojciech Maj <kontakt@wojtekmaj.pl>",
   "contributors": [
-    {
-      "name": "Anenth",
-      "email": "anenthvishnu@gmail.com"
-    },
-    {
-      "name": "Artur Termenji",
-      "email": "atermenji@gmail.com"
-    },
-    {
-      "name": "Bart Van Houtte",
-      "email": "bart.van.houtte@ading.be"
-    },
-    {
-      "name": "Dmitry Ivakhnenko",
-      "email": "jeetiss@yandex.ru"
-    },
-    {
-      "name": "Felipe Lacerda",
-      "email": "fegolac@gmail.com"
-    },
-    {
-      "name": "Julia Kieserman",
-      "email": "kieserman.julia@gmail.com"
-    },
-    {
-      "name": "Lucas Simkins",
-      "email": "lucas.simkins@gmail.com"
-    },
-    {
-      "name": "Niklas Närhinen",
-      "email": "niklas@narhinen.net"
-    },
-    {
-      "name": "Robert Scott",
-      "email": "rs@robsco.info"
-    },
-    {
-      "name": "Thomas McCarthy",
-      "email": "tom@tomm.cc"
-    }
+    "Anenth <anenthvishnu@gmail.com>",
+    "Artur Termenji <atermenji@gmail.com>",
+    "Bart Van Houtte <bart.van.houtte@ading.be>",
+    "Dmitry Ivakhnenko <jeetiss@yandex.ru>",
+    "Felipe Lacerda <fegolac@gmail.com>",
+    "Julia Kieserman <kieserman.julia@gmail.com>",
+    "Lucas Simkins <lucas.simkins@gmail.com>",
+    "Niklas Närhinen <niklas@narhinen.net>",
+    "Robert Scott <rs@robsco.info>",
+    "Thomas McCarthy <tom@tomm.cc>"
   ],
   "license": "MIT",
   "dependencies": {
@@ -114,8 +81,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wojtekmaj/react-pdf.git"
+    "url": "https://github.com/jamesjessian/react-pdf.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/jamesjessian"
   },
   "funding": "https://github.com/wojtekmaj/react-pdf?sponsor=1",
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.0",
+  "bugs": {
+    "url": "https://github.com/wojtekmaj/react-pdf/issues"
+  },
+  "homepage": "https://github.com/wojtekmaj/react-pdf#readme",
+  "directories": {
+    "test": "test"
+  }
 }
